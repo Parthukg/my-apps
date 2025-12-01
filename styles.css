@@ -102,6 +102,7 @@ h1 {
 .gradient-text {
     background: linear-gradient(135deg, #60a5fa 0%, #a855f7 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -148,7 +149,7 @@ h1 {
 }
 
 .app-image {
-    background: #000;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
     display: flex;
     align-items: center;
     justify-content: center;
